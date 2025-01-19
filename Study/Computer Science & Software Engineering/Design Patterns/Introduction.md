@@ -12,7 +12,7 @@ Each design pattern is a solution to a specific problem which occurs commonly wh
 > 
 > 1. Creational Design Patterns
 > 	- [[Builder Pattern]]
-> 	- [[Abstract Factory]]
+> 	- [[Factory Method]]
 > 	- [[Singleton]]
 
 
