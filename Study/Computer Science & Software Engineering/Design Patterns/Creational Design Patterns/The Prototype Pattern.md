@@ -13,7 +13,7 @@ The *Prototype* pattern solves exactly this problem - it delegates the cloning p
 You start off with a common interface for all of the objects that need to support cloning - which more often, would contain just a single clone method. This clone method, when called, would return a new copy of the object, with all the properties and their values from the previous instance.
 
 Here, we call the object that is being cloned a *Prototype*. When your objects have a significant amount of fields, and multiple configurations - cloning them might serve as an alternative to subclassing.
-## Approach
+## Example
 
 We start by defining a prototype interface:
 

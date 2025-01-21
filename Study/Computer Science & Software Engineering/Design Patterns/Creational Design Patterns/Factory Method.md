@@ -4,14 +4,18 @@
 Suppose you have client code, where you need to to create multiple variant object of a class descending from a same abstract class. So, in your client class, you define some conditional statements - perhaps calling appropriate constructor based on a `type` input to a method in the client class.
 
 This results code which is tightly coupled with the concrete classes - so let's say every time there is a change to the classes, or you need to add some more variants of the classes-  the object creation code also needs to be modified, which becomes a problem as your codebase grows.
-## Solution
+## Example
 
 This problem is can be solved by implementing a *Factory Method* pattern. Here is how it works - in your abstract class implementation, you create a so called abstract *factory method* - a single method which is responsible for instantiating your classes, so all your object creation logic is implemented in a single method - which makes it flexible to modify. Also, since the method is abstract, it allows subclasses to control how objects are created as well.
 
+The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
 To summarise, here is what you need to implement the Factory method pattern:
 
-- Creator Classes: These abstract classes contain a special factory method, responsible to create objects.
-- Product Classes: The classes which are meant to be instantiated - these are concrete implementations.
+- Creator Classes: These abstract classes contain a special factory method, responsible to create objects. These classes will expose a method to be used for creating objects - the *factory method*.
+- Product Classes: The classes which are meant to be instantiated - these are concrete implementations. You optionally may have an abstract Product implementation as well, followed by more concrete Product classes - based on a scenario.
+
+Instead of letting subclasses decide, another approach is a parameterized factory method - where the factory method is given a parameter, based on which it decides what class to instantiate.
 ## Approach
 
 Here is an example code:

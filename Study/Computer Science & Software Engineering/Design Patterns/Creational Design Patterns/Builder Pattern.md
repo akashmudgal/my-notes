@@ -6,7 +6,7 @@ As classes grow in size, constructors to initialize instances become even more c
 
 We can solve this problem in object oriented code by utilizing a design pattern called a *Builder Pattern* - where, instead of calling the "Class" Constructor directly, we call a "ClassBuilder" constructor, and use it to initialize the original class and any properties that are needed.
 
-## Approach
+## Example
 
 Below are the steps to implement the *Builder Pattern* for a class:
 - Inside the class, create a nested static builder class. A common convention is to name the builder class is to suffix the original name of the class by *Builder*, e.g., PersonBuilder.

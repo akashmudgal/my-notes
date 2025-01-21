@@ -144,13 +144,23 @@
               "icon": "lucide-list",
               "title": "Outline of Introduction"
             }
+          },
+          {
+            "id": "266c12c9ba56a2d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,12 +176,12 @@
   "active": "2f4379b5083a06ef",
   "lastOpenFiles": [
     "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/Builder Pattern.md",
-    "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/Abstract Factory.md",
     "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/Factory Method.md",
     "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/Singleton.md",
-    "Study/Computer Science & Software Engineering/Design Patterns/Introduction.md",
-    "Study/Computer Science & Software Engineering/Design Patterns/General Guidelines for Design Patterns.md",
     "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/The Prototype Pattern.md",
+    "Study/Computer Science & Software Engineering/Design Patterns/General Guidelines for Design Patterns.md",
+    "Study/Computer Science & Software Engineering/Design Patterns/Creational Design Patterns/Abstract Factory.md",
+    "Study/Computer Science & Software Engineering/Design Patterns/Introduction.md",
     "Untitled.md",
     "Creation.md",
     "Creational Design Patterns/Builder Pattern.md",

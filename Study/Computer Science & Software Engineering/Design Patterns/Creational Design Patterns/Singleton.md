@@ -5,7 +5,7 @@ Suppose you have a scenario where you have to ensure that there only ever is a s
 
 The *Singleton* Design Pattern provides a way to solve this problem. You create a class in such a way, that if an instance of it exists already in the memory, a new instance is not created - instead, the already existing instance in the memory is returned.
 
-## Approach
+## Example
 
 For implementing the *Singleton* pattern, we define the class with a private constructor - to prevent the external instantiation of the class. We provide a method within the class, which return if the instance of the class exists already, and if not, we create a new instance, and return it.
 
